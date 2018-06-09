@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins-Assets\YarnSpinner-0.9.10.1\YarnSpinner\AntlrCompiler.cs">
+    <Files>
+      <File FileName="Assets\Plugins-Assets\YarnSpinner-0.9.10.1\YarnSpinner\AntlrCompiler.cs" Line="836" Column="1" />
+      <File FileName="Assets\Plugins-Assets\YarnSpinner-0.9.10.1\YarnSpinner\Compiler.cs" Line="447" Column="1" />
+      <File FileName="Assets\Plugins-Assets\YarnSpinner-0.9.10.1\YarnSpinnerConsole\Main.cs" Line="31" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

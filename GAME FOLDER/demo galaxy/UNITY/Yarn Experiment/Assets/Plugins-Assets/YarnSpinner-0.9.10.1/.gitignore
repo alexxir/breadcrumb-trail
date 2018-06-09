@@ -1,0 +1,88 @@
+
+*/NITW/*
+
+# Created by https://www.gitignore.io/api/monodevelop,xamarinstudio,osx
+
+### MonoDevelop ###
+#User Specific
+*.userprefs
+*.usertasks
+*.csproj.user
+
+#Mono Project Files
+*.pidb
+*.resources
+test-results/
+
+
+### XamarinStudio ###
+bin/
+obj/
+*.userprefs
+
+### Visual Studio ###
+.vs/
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Scratch notes
+NOTES.md
+
+# Binaries
+Builds/
+
+# WIP logo in .sketch form, will remove this when adding it
+*.sketch
+
+Unity/Assets/Yarn Spinner/Code/YarnSpinner.dll*
+
+# NUnit test results
+TestResult.xml
+
+packages/
+
+testrunner/
+
+# Unity Test Tools examples
+Unity/Assets/UnityTestTools*
+
+# Unity package log
+export.log
+
+# Doxygen generated files
+Documentation/docbook*
+Documentation/html*
+Documentation/latex*
+Documentation/rtf*
+Documentation/xml*
+
+# GNU GLOBAL
+GPATH
+GRTAGS
+GTAGS
+GSYMS
