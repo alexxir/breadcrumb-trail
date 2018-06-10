@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Narrator: Content warning for death, death ideation, anxiety. This game uses mouse input. \r\nClick when you see > to proceed. [[Continue]] \r\n",
+		"position": {
+			"x": 224,
+			"y": 115
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Continue",
+		"tags": "",
+		"body": "O: You know, we could've had anything we wanted.\n\n[[How so|How So]]\n[[That's a bit presumptuous|presumptuous]]. \r\n",
+		"position": {
+			"x": 221,
+			"y": 333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "presumptuous",
+		"tags": "",
+		"body": "bloop",
+		"position": {
+			"x": 470,
+			"y": 114
+		},
+		"colorID": 0
+	},
+	{
+		"title": "How So",
+		"tags": "",
+		"body": "blah",
+		"position": {
+			"x": 478,
+			"y": 332
+		},
+		"colorID": 0
+	}
+]

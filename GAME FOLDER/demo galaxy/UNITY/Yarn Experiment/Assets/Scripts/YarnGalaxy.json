@@ -2,17 +2,17 @@
 	{
 		"title": "continue",
 		"tags": "",
-		"body": "<i>You know, we could've had anything we wanted.</i>\r\n\r\n[[How so?]] \r\n[[That's a bit |presumptious.]]",
+		"body": "O: You know, we could've had anything we wanted.\r\n\r\n[[How so?]] \r\n[[That's a bit |presumptious.]]",
 		"position": {
-			"x": -544,
-			"y": -123
+			"x": -444,
+			"y": -146
 		},
 		"colorID": 0
 	},
 	{
 		"title": "How So?",
 		"tags": "",
-		"body": "<i>Well, for starters, we could've... not voluntarily signed up for this. And done literally anything else.</i>\r\n\r\nWe can't have known it would turn out like [[this]].",
+		"body": "O: Well, for starters, we could've... not voluntarily signed up for this. And done literally anything else.\r\n\r\nWe can't have known it would turn out like [[this]].",
 		"position": {
 			"x": -780,
 			"y": 117
@@ -22,17 +22,17 @@
 	{
 		"title": "presumptious",
 		"tags": "",
-		"body": "<i>Is it though? There's a million and one ways to make money in the solar system. And we chose this.</i>\r\n\r\nWe can't have known it would turn out like [[this]].",
+		"body": "O:Is it though? There's a million and one ways to make money in the solar system. And we chose this.\r\n\r\nWe can't have known it would turn out like [[this]].",
 		"position": {
 			"x": -336,
-			"y": 88
+			"y": 83
 		},
 		"colorID": 0
 	},
 	{
 		"title": "this",
 		"tags": "",
-		"body": "<i>Yeah, I know. I'm sorry.</i>\r\n\r\n[[It's ok. I would |feel guilty too]].\r\n[[You should be]].\r\n\r\n",
+		"body": "O:Yeah, I know. I'm sorry.\r\n\r\n[[It's ok. I would |feel guilty too]].\r\n[[You should be]].\r\n\r\n",
 		"position": {
 			"x": -562,
 			"y": 302
@@ -42,9 +42,9 @@
 	{
 		"title": "feel guilty too",
 		"tags": "",
-		"body": "<i>Yeah. Yeah. I mean, when things go wrong, it's so... easy for me to be all, \"this is your fault. You could've prevented this.\" And then I'll play out all the things I could've done differently.</i>\r\n\r\n->Like?\r\nWell, like... what if another job offer came up before this, what if we'd been intercepted by another fleet? What if there was a critical engine failure before take off, and we never left?\r\n ->That's pretty unrealistic.\r\n   I know. I should try to drop that line of thinking before I feel any worse.\r\n->Yeah, I totally understand.\r\nThere's no use in feeling guilty about it. It's not like there's any remedy. \r\n<i>I know. I should try to drop that line of thinking before I feel any worse.</i>\r\n\r\n[[...|Pause 1]]",
+		"body": "O:Yeah. Yeah. I mean, when things go wrong, it's so... easy for me to be all, \"this is your fault. You could've prevented this.\" And then I'll play out all the things I could've done differently.\r\n\r\n->Like?\r\nO:Well, like... what if another job offer came up before this, what if we'd been intercepted by another fleet? What if there was a critical engine failure before take off, and we never left?\r\n ->That's pretty unrealistic.\r\n   O: I know. I should try to drop that line of thinking before I feel any worse.\r\n->Yeah, I totally understand.\r\nThere's no use in feeling guilty about it. It's not like there's any remedy. \r\nO: I know. I should try to drop that line of thinking before I feel any worse.\r\n\r\n[[...|Pause 1]]",
 		"position": {
-			"x": -844,
+			"x": -846,
 			"y": 646
 		},
 		"colorID": 0
@@ -52,7 +52,7 @@
 	{
 		"title": "You should be",
 		"tags": "",
-		"body": "<i>....\r\n\r\nThat was just rude.</i>\r\n\r\n[[I ... I didn't mean it like an |accusation]].\r\n[[Rude, but not untrue]].",
+		"body": "O:....\r\n\r\nThat was just rude.\r\n\r\n[[I ... I didn't mean it like an |accusation]].\r\n[[Rude, but not untrue]].",
 		"position": {
 			"x": -345,
 			"y": 391
@@ -62,7 +62,7 @@
 	{
 		"title": "accusation",
 		"tags": "",
-		"body": "<i>I know. That doesn't stop it from hurting. I already feel bad enough that we're here.</i>\n\n[[...|Pause 1]]",
+		"body": "O: I know. That doesn't stop it from hurting. I already feel bad enough that we're here.\n\n[[...|Pause 1]]",
 		"position": {
 			"x": -618,
 			"y": 647
@@ -72,7 +72,7 @@
 	{
 		"title": "Rude, but not untrue",
 		"tags": "",
-		"body": "<i>I don't really need to be given a reason to feel bad. I already do.</i>\n\n[[...|Pause 1]]",
+		"body": "O: I don't really need to be given a reason to feel bad. I already do.\n\n[[...|Pause 1]]",
 		"position": {
 			"x": -347,
 			"y": 645
@@ -80,29 +80,19 @@
 		"colorID": 0
 	},
 	{
-		"title": "Start",
-		"tags": "",
-		"body": "CW: Death, death ideation, anxiety\nThis game requires mouse and click input.\nPress [[here|continue]] to proceed.",
-		"position": {
-			"x": -793,
-			"y": -190
-		},
-		"colorID": 0
-	},
-	{
 		"title": "Pause 1",
 		"tags": "",
-		"body": "<i>Do you think we have any chance of rescue?</i>\n\n[[Probably not]].\n[[God, no]].",
+		"body": "O: Do you think we have any chance of rescue?\n\n[[Probably not]].\n[[God, no]].",
 		"position": {
 			"x": 143,
 			"y": -297
 		},
-		"colorID": 0
+		"colorID": 1
 	},
 	{
 		"title": "Probably not",
 		"tags": "",
-		"body": "The communication is busted, there's barely any power, and we've got no visuals on anything. None of this screams \"we're gonna be juuuuuuust fine, thanks.\"\r\n\r\n<i>I knew that.</i>\r\n\r\nThen why did you ask?\r\n\r\n<i>Some hope you'd know something I didn't.\r\n\r\n...\r\n\r\nYou're shivering. God, there goes our temp reg.\r\n\r\n<i>Oh god.</i>\r\n\r\nNo surprise. I can't believe it lasted this long.\r\n\r\n[[...|Pause 2]]",
+		"body": "The communication is busted, there's barely any power, and we've got no visuals on anything. None of this screams \"we're gonna be juuuuuuust fine, thanks.\"\r\n\r\nO: I knew that.\r\n\r\nThen why did you ask?\r\n\r\nO: Some hope you'd know something I didn't.\r\n\r\n...\r\n\r\nYou're shivering. God, there goes our temp reg.\r\n\r\nO: Oh god.\r\n\r\nNo surprise. I can't believe it lasted this long.\r\n\r\n[[...|Pause 2]]",
 		"position": {
 			"x": -58,
 			"y": -68
@@ -112,7 +102,7 @@
 	{
 		"title": "God, no",
 		"tags": "",
-		"body": "I mean, we're on a useless hunk of metal floating free in space. It's a miracle we have oxygen left.\r\n\r\n<i>And we can't do a single thing about it.</i>\r\n\r\nBingo.\r\n\r\n...\r\n\r\n<i>I feel like it's getting colder.</i>\r\n\r\nI'd say it's just your imagination, but we're probably losing temp reg power, like everything else.\r\n\r\n<i>Fuck.</i>\r\n\r\n...\r\n\r\n<i>I could never stand the cold.</i>\r\n\r\n[[...|Pause 2]]",
+		"body": "I mean, we're on a useless hunk of metal floating free in space. It's a miracle we have oxygen left.\r\n\r\nO: And we can't do a single thing about it.\r\n\r\nBingo.\r\n\r\n...\r\n\r\nO: I feel like it's getting colder.\r\n\r\nI'd say it's just your imagination, but we're probably losing temp reg power, like everything else.\r\n\r\nO: Fuck.\r\n\r\n...\r\n\r\nO: I could never stand the cold.\r\n\r\n[[...|Pause 2]]",
 		"position": {
 			"x": 357,
 			"y": -69
@@ -122,12 +112,12 @@
 	{
 		"title": "Pause 2",
 		"tags": "",
-		"body": "<i>We're going to die out here.</i>\r\n\r\n...\r\n\r\n*[[silence]]*\r\n[[Yeah]].",
+		"body": "O: We're going to die out here.\r\n\r\n...\r\n\r\n*[[silence]]*\r\n[[Yeah]].",
 		"position": {
 			"x": 159,
 			"y": 196
 		},
-		"colorID": 0
+		"colorID": 1
 	},
 	{
 		"title": "silence",
@@ -154,25 +144,25 @@
 		"tags": "",
 		"body": "*sobbing*\n\n[[...|sorry]]\n*[[shaky sigh|sigh]]*",
 		"position": {
-			"x": 168,
-			"y": 645
+			"x": 154,
+			"y": 649
 		},
 		"colorID": 0
 	},
 	{
 		"title": "sorry",
 		"tags": "",
-		"body": "<i>I'm so sorry.</i>\n\n[[Don't be]].\n[[It's fine]].",
+		"body": "O:I'm so sorry.\n\n[[Don't be]].\n[[It's fine]].",
 		"position": {
-			"x": -42,
-			"y": 875
+			"x": -49,
+			"y": 877
 		},
 		"colorID": 0
 	},
 	{
 		"title": "sigh",
 		"tags": "",
-		"body": "<i>I... I...</i>\n\n->Come here.\n  Let's stay close.\n  [[...|Pause 3]]",
+		"body": "O:I... I...\n\n->Come here.\n  Let's stay close.\n  [[...|Pause 3]]",
 		"position": {
 			"x": 387,
 			"y": 865
@@ -202,17 +192,17 @@
 	{
 		"title": "Pause 3",
 		"tags": "",
-		"body": "Do you remember your first trip out here?\n\nCan't say I've gotten [[high]] in space before.\nOf course! It's not [[something anyone forgets]].\nThe details are a [[little hazy]]. I remember what it felt like though.",
+		"body": "O: Do you remember your first trip out here?\n\nCan't say I've gotten [[high]] in space before.\nOf course! It's not [[something anyone forgets]].\nThe details are a [[little hazy]]. I remember what it felt like though.\n",
 		"position": {
 			"x": 740,
 			"y": -298
 		},
-		"colorID": 0
+		"colorID": 1
 	},
 	{
 		"title": "high",
 		"tags": "",
-		"body": "<i>Pffft! You know what I mean. \n\nOf course! It's not [[something anyone forgets]].\nThe details are a [[little hazy]]. I remember what it felt like though.",
+		"body": "O: Pffft! You know what I mean. \n\nOf course! It's not [[something anyone forgets]].\nThe details are a [[little hazy]]. I remember what it felt like though.",
 		"position": {
 			"x": 774,
 			"y": 45
@@ -222,21 +212,101 @@
 	{
 		"title": "little hazy",
 		"tags": "",
-		"body": "<i>Was it really that long ago?</i>\n\nYeah. I would've been really young. \n\nWhy the curiousity? \n\n<i>I... I don't really know. The question just sorta... popped into my head.</i>\n\nWell, I'm happy to oblige. ",
+		"body": "O: Was it really that long ago?\n\nYeah. I would've been really young. \n\nWhy the curiousity? \n\nO: I... I don't really know. The question just sorta... popped into my head.\n\nWell, I'm happy to [[oblige]]. ",
 		"position": {
-			"x": 1048,
-			"y": -167
+			"x": 1076,
+			"y": -83
 		},
 		"colorID": 0
 	},
 	{
 		"title": "something anyone forgets",
 		"tags": "",
-		"body": "<i>Right, right, heh.</i>\n\nAre you trying to do the whole \"recall before death\" thing, by any chance?\n\n<i>Not intentionally. The question just sorta... popped into my head. I'm curious.</i>\n\nWell, I'm happy to oblige. ",
+		"body": "O: Right, right, heh.\n\nAre you trying to do the whole \"recall before death\" thing, by any chance?\n\nO: Not intentionally. The question just sorta... popped into my head. I'm curious.\n\nWell, I'm happy to [[oblige]]. ",
 		"position": {
-			"x": 989,
-			"y": -431
+			"x": 1003,
+			"y": -338
 		},
 		"colorID": 0
+	},
+	{
+		"title": "oblige",
+		"tags": "",
+		"body": "I would've been about \r\n->16 <<set $age16 to 1>>\r\n->20 <<set $age20 to 1>>\r\n->30 <<set $age30 to 1>>\r\n\r\nI was \r\n->a space cadet\r\n\tA space cadet. Was in service for a good decade or so. Mostly dealt with moving weapon cargo back and forth from Mars and Earth. After your initial standard military training, you go to on board simulation, and then eventually, the real deal. I dealt with minor ship repairs, so I didn't fly anything. But I remember how surreal take off felt, how weird it was looking out. Back then, they didn't have gravity simulations in every area- it was too expensive. Only the sleeping quarters and common dining spaces had it. You'd go back and forth and even work while floating around.\r\n\tO: <<if $age16 is 1>>So young for a space cadet!<<endif>><<if $age30 is 1>>Enlisted late?<<endif>><<if $age20 is 1>>I haven't seen a ship without gravity in ages.<<endif>>\r\n\tYeah. I de-enlisted a few years after, settled on Mars. Thought I'd have enough savings to look for work that was... less dangerous. And well, that's when all the chaos happened.\r\n\tO: Yeah, right.\r\n->relocating from Earth\r\n \tI was relocating from Earth. Do you remember when they were offering that \"life incentive\" government package to live on the new Mars colonies? \r\n\tO: Yes! So many of the people I knew went for that.<<if $age16 is 1>>You were accepted so young!<<endif>><<if $age20 is 1>>You were in that age bracket they wanted.<<endif>><<if $age30 is 1>>They didn't accept many people over 25...<<endif>>\r\n\tYeah. I was one of the lucky ones. I honestly don't know how I managed it... I assumed they wanted families, and me being single and relative-less at the time, I thought I'd be straight up rejected. But I guess they needed free agents in the community. So I accepted, and got on board those massive transportation ships. Thousands of people. The scale was so daunting. And because they were so big, they were slow. It took years to reach Mars. \r\n\tO: I can only assumed what happened there. I've heard stories.\r\n\tYou've probably heard correct. I was one of the unlucky ones that had the community areas restricted from them in the riots. We were forced to pay up, or starve to death. \r\n\tO: I guess that's how you found yourself out here, then.\r\n\tYeah. I didn't really have a choice.\r\n->fleeing my home\r\n \tI was running from Mars. I really did believe it was going to be the new future they promised on Earth.\r\n\tO: So you were one of those government chosen Mars residents?\r\n\tYeah. I was on board those massive transportation ships. Thousands of people. The scale was so daunting. And because they were so big, they were slow. It took years to reach Mars. And it only took me a year to leave from there. \r\n\tO: The riots?\r\n\tYou got it.\r\n\r\n[[...|Pause 4]]",
+		"position": {
+			"x": 1076,
+			"y": 167
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Pause 4",
+		"tags": "",
+		"body": "O: Thank you. For sharing.\r\n\r\n[[That's ok]].\r\n[[Anything to pass the time]]\r\n\r\n\r\n",
+		"position": {
+			"x": 889,
+			"y": 520
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Narrator: Content warning for death, death ideation, anxiety. This game uses mouse and click input. Press [[here|continue]] to proceed.",
+		"position": {
+			"x": -708,
+			"y": -250
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Anything to pass the time",
+		"tags": "",
+		"body": "O: I would've made a killing time, but I'm not sure I wanna think about that pun too hard.\r\n\r\n->...\r\n\r\nO: I don't really have much of a story myself. I was an assistant to a UN staff once. Feels like ages ago. When the economy tanked, I... I didn't have much.\r\n\r\n->No one really did.\r\n\r\nO: It seems like so many of us turned to space.\r\n\r\n[[HYPE]]\r\n[[PRACTICALITY]]",
+		"position": {
+			"x": 1022,
+			"y": 768
+		},
+		"colorID": 0
+	},
+	{
+		"title": "That's ok",
+		"tags": "",
+		"body": "O: I don't really have much of a story myself. I was an assistant to a UN staff once. Feels like ages ago. When the economy tanked, I... I didn't have much.\r\n\r\n->No one really did.\r\n\r\nO: It seems like so many of us turned to space.\r\n\r\n[[HYPE]]\r\n[[PRACTICALITY]]",
+		"position": {
+			"x": 772,
+			"y": 768
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HYPE",
+		"tags": "",
+		"body": "We believed space would save us.\r\n\r\n[[...|Pause 5]]\r\n",
+		"position": {
+			"x": 779,
+			"y": 1065
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PRACTICALITY",
+		"tags": "",
+		"body": "We were told space was the solution.\r\n\r\n[[...|Pause 5]]",
+		"position": {
+			"x": 1029,
+			"y": 1065
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PAUSE 5",
+		"tags": "",
+		"body": "end demo",
+		"position": {
+			"x": 1491,
+			"y": -280
+		},
+		"colorID": 1
 	}
 ]
